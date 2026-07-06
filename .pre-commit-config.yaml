@@ -13,7 +13,7 @@ default_language_version:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v6.0.0
     hooks:
       - id: trailing-whitespace
         args: ["--markdown-linebreak-ext", "md,markdown"]
@@ -46,7 +46,7 @@ repos:
       - id: check-pre-commit-ci-config
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.29.1
+    rev: 0.37.4
     hooks:
       - id: check-dependabot
       - id: check-github-workflows
@@ -59,7 +59,7 @@ repos:
         language: system
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: "2.7.3"
+    rev: "3.6.1"
     hooks:
       - id: editorconfig-checker
         alias: ec
